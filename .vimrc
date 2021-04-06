@@ -1,8 +1,8 @@
-202104061434
+" 202104061434
 
 """" Basic Behavior
 
-"set number              " show line numbers
+set number              " show line numbers
 set wrap                " wrap lines
 set encoding=utf-8      " set encoding to UTF-8 (default was "latin1")
 set mouse=a             " enable mouse support (might not work well on Mac OS X)
@@ -24,7 +24,8 @@ nmap k gk
 """" Vim Appearance
 
 " put colorscheme files in ~/.vim/colors/
-colorscheme murphy      " good colorschemes: murphy, slate, molokai, badwolf, solarized
+" colorscheme murphy      " good colorschemes: murphy, slate, molokai, badwolf, solarized
+" colorscheme slate
 
 " use filetype-based syntax highlighting, ftplugins, and indentation
 syntax enable
@@ -46,6 +47,7 @@ set smartindent         " even better autoindent (e.g. add indent after '{')
 
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
+set ignorecase          " do case insensitive search
 
 " turn off search highlighting with <CR> (carriage-return)
 nnoremap <CR> :nohlsearch<CR><CR>
