@@ -1,5 +1,8 @@
 " 202104061434
 
+" Gotta be first
+set nocompatible
+
 """" Basic Behavior
 
 set number              " show line numbers
@@ -12,6 +15,9 @@ set showmatch           " highlight matching parentheses / brackets [{()}]
 set laststatus=2        " always show statusline (even with only single window)
 set ruler               " show line and column number of the cursor on right side of statusline
 set visualbell          " blink cursor on error, instead of beeping
+set backspace=indent,eol,start
+set showcmd
+
 
 
 """" Key Bindings
