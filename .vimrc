@@ -58,6 +58,10 @@ set ignorecase          " do case insensitive search
 " turn off search highlighting with <CR> (carriage-return)
 nnoremap <CR> :nohlsearch<CR><CR>
 
+"""" Windows and Tabs
+set splitbelow
+set splitright
+
 
 """" Miscellaneous settings that might be worth enabling
 
